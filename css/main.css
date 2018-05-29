@@ -1,0 +1,278 @@
+@font-face {
+    font-family: "GothamRoundedBook";
+    src: url("../fonts/GothamRounded-Book.otf");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GothamRoundedMedium";
+    src: url("../fonts/GothamRounded-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "GothamRoundedMediumItalic";
+    src: url("../fonts/GothamRounded-MediumItalic.otf");
+    font-weight: 500;
+    font-style: italic;
+}
+body, html {
+    font-family: 'GothamRoundedMedium', 'Arial', sans-serif;
+    font-size: 14px;
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    
+}
+.container {
+    margin: 0 auto;
+    width: 1140px;
+}
+.header {
+   background: #fff url(../img/header-bg.jpg) no-repeat top center/cover;
+   color: #8c9398;
+    text-align: center;
+    padding-bottom: 345px;
+}
+.nav-icons {
+    width: 27px;
+    height: 18px;
+    color: #372c3c;
+    padding-top: 63px;
+    margin-left: 1112px;
+}
+.tittle {
+    font-family: 'GothamRoundedBook', 'Arial', sans-serif;
+    color: #353535;
+    font-size: 40px;
+/*    line-height: 200px;*/
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    margin: 0;
+    margin-top: 169px;
+}
+.tittle_decor {
+    font-family: 'GothamRoundedBook', 'Arial', sans-serif;
+    color: #a1a9b0;
+    font-size: 40px;
+/*    line-height: 200px;*/
+    text-transform: uppercase;
+    letter-spacing: 12px;
+}
+.tittle__description {
+    font-family: 'GothamRoundedBook', 'Arial', sans-serif;
+    color: #8c9398;
+    font-size: 15px;
+/*    line-height: 200px;*/
+    letter-spacing: 2.25px;
+    margin: 0;
+    margin-top: 31px;
+}
+.tittle__description_decor {
+    font-family: 'GothamRoundedMediumItalic', 'Arial', sans-serif;
+    font-size: 15px;
+    color: #8c9398;
+/*    line-height: 200px;*/
+    letter-spacing: 2.25px; 
+}
+.tittle__link {
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    background-color: #3dc9b3;
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 65px;
+    color: #ffffff;
+    text-decoration: none;
+    box-shadow: 0 3px #309383;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.tittle__link:hover {
+    background-color: #309383;
+    transform: translateY(1px);
+}
+.previous {
+    background-color: #f3f5f8;
+    color: #353535;
+    padding-top: 107px;
+    padding-bottom: 127px;
+    text-align: center;
+}
+.section__tittle {
+    margin: 0;
+    color: #353535;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+}
+.section__line {
+    margin: 0 auto;
+    margin-top: 26px;
+    position: relative;
+    width: 15px;
+    height: 13px;
+    background: url(../img/icon-section.png) no-repeat center center;
+}
+.section__line::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    right: 37px;
+    width: 234px;
+    height: 2px;
+    border-bottom: 2px dotted #d2d7dd;
+}
+.section__line::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 36px;
+    width: 234px;
+    height: 2px;
+    border-bottom: 2px dotted #d2d7dd;
+}
+.previous__description {
+    color: #8c9398;
+    margin: 0 auto;
+    margin-top: 67px;
+    width: 742px;
+    line-height: 30px;
+    letter-spacing: 0.14px;
+}
+.description__general-words {
+    color: #353535;
+    letter-spacing: 0.14px;
+}
+.product {
+    padding-top: 102px;
+    text-align: center;
+    padding-bottom: 122px;
+}
+.product__block {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    margin-top: 88px;
+    padding: 0;
+}
+.product__item__title {
+    margin: 0;
+    margin-top: 48px;
+    margin-bottom: 26px;
+    color: #353535;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.item__line {
+    margin: 0 auto;
+    width: 33px;
+    border-bottom: 3px solid #3dc9b3;
+}
+.product__item__description {
+    margin: 0;
+    margin-top: 29px;
+    color: #8c9398;
+    line-height: 20px;
+}
+.page-section {
+    background: url(../img/flowers-bg.png) no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding-top: 81px;
+    padding-bottom: 55px;
+}
+.page-section__title {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'GothamRoundedBook', 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.page-section__subtitle {
+    margin: 0;
+    margin-top: 28px;
+    margin-bottom: 43px;
+    color: #ffffff;
+    font-family: 'GothamRoundedBook', 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+}
+.subtitle__italic-word {
+    font-family: 'GothamRoundedMediumItalic', 'Arial', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 7.5px;
+}
+.btn-arrow {
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #3dc9b3;
+    border-radius: 50%;
+    color: #fff;
+    transform: rotate(90deg);
+    text-decoration: none;
+    font-size: 30px;
+    padding-top: 4px;
+}
+.advantage {
+    padding-top: 104px;
+    padding-bottom: 109px;
+}
+.advantage__block {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.advantage__item {
+    text-align: center;
+}
+.advantage__item__pic-bg {
+    width: 360px;
+    height: 200px;
+    background-color: #33cccc;
+    position: relative;
+/*    opacity: 0.7;*/
+}
+.advantage__item__pic {
+    position: absolute;
+    
+}
+
+.offer {
+    background-color: #242830;
+    padding-top: 65px;
+    padding-bottom: 61px;
+    text-align: center;
+}
+.offer__btn {
+    display: inline-block;
+    width: 294px;
+    height: 74px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding-top: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2.25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+.offer__btn:hover {
+    background-color: #ffffff;
+    color: #242830;
+}
